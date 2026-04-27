@@ -6,7 +6,7 @@
 		"node": ">=22.12.0"
 	},
 	"scripts": {
-		"editorconfig": "editorconfig-checker -exclude \"**/node_modules/**\"",
+		"editorconfig": "editorconfig-checker",
 		"browserslist": "bunx update-browserslist-db@latest",
 		"dev": "astro dev",
 		"build": "astro build",
@@ -26,6 +26,7 @@
 		"@types/react": "^19.2.14",
 		"@types/react-dom": "^19.2.3",
 		"astro": "^6.1.9",
+		"baseline-browser-mapping": "^2.10.23",
 		"caniuse-lite": "^1.0.30001791",
 		"class-variance-authority": "^0.7.1",
 		"clsx": "^2.1.1",
